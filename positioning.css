@@ -1,0 +1,45 @@
+/**
+ * Float Layout Activity
+ **/
+
+ * {
+  box-sizing: border-box;
+}
+
+  body {
+    font-size: 24px;
+    line-height: 32px;
+    color: black;
+  }
+  
+    
+ section{
+     margin: 0 20% 0 20%;
+ }
+
+ #div-1{
+    background-color:#eee;
+    text-align: center;
+    position: fixed;
+    width: 260px;
+    height: 150px;
+    margin: 0 7% 0 8%;
+ }
+
+ #div-2{
+    background-color: #eee;
+    text-align: center;
+    position:relative;
+    margin: 0;
+    height:290px;
+ }
+
+ #div-3{
+    background-color: #999;
+    text-align: center;
+    position:absolute;
+    margin: 0% 40% 0% 40%;
+    width:390px;
+    bottom:238px;
+ }
+  
